@@ -29,7 +29,7 @@ const store = createStore({
       commit("SET_CURRENT_PROFILE", profile);
     },
     changeMessages({ commit }, message) {
-      commit(" SET_MESSAGES", message);
+      commit("SET_MESSAGES", message);
     },
   },
 });
