@@ -10,6 +10,7 @@
           ? `Message in ${$store.state.currentChannel.title}`
           : 'Select a channel'
       "
+      :disabled="!$store.state.currentChannel"
       @input="onChange"
       @keydown="onKeyDown"
       :value="value"

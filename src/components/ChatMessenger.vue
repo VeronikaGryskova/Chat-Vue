@@ -15,7 +15,7 @@
 import HeaderChat from "./HeaderChat.vue";
 import InputChat from "./InputChat.vue";
 import CorrespondenceChat from "./CorrespondenceChat.vue";
-import avatarAmiliaLuna from "../img/avatar.svg";
+
 import axios from "axios";
 
 export default {
@@ -28,19 +28,14 @@ export default {
   data() {
     return {
       message: "",
-      correspondence: [],
-      user: {
-        fullName: "Amilia Luna",
-        avatar: avatarAmiliaLuna,
-      },
+      user: this.$store.state.currentProfile,
       date: "",
       smsDate: "",
     };
   },
   mounted() {
     axios.get("http://localhost:3000/messages").then((response) => {
-      this.correspondence = response.data;
-      this.$store.state.messages = response.data;
+      this.$store.dispatch("changeMessages", response.data);
     });
   },
   methods: {
@@ -65,7 +60,7 @@ export default {
 
       axios
         .post("http://localhost:3000/messages", {
-          user: this.user,
+          user: this.$store.state.currentProfile,
           time: this.smsDate,
           content: this.message,
           idChannel: this.$store.state.currentChannel.id,
@@ -74,7 +69,7 @@ export default {
           this.$store.state.messages.push({
             content: this.message,
             time: this.smsDate,
-            user: this.user,
+            user: this.$store.state.currentProfile,
             idChannel: this.$store.state.currentChannel.id,
           });
         });

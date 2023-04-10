@@ -25,6 +25,7 @@ export default {
   mounted() {
     const router = useRouter();
     axios.get("http://localhost:3000/myAcc").then((response) => {
+      this.$store.dispatch("changeCurrentProfile", response.data);
       this.profile = response.data;
     });
     router.push("/");

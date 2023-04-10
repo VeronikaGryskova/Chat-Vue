@@ -1,5 +1,6 @@
 {
   "myAcc": {
+    "avatar": "https://img5.goodfon.com/original/1024x1024/3/a0/devushka-spina-gorod-vysota-solntse.jpg",
     "fullName": "Amilia Luna",
     "status": true,
     "description": "UL Designer",
@@ -17,15 +18,27 @@
     },
     {
       "status": false,
-      "username": "Orlando Diggs",
+      "username": "Carmen Velasco",
       "link": "https://ru-ru.facebook.com/",
-      "avatar": "https://cs10.pikabu.ru/post_img/big/2019/08/25/7/1566728720190193002.jpg"
+      "avatar": "https://tipik.ru/wp-content/uploads/2023/02/Самые-красивые-аватарки-для-девушек_012.jpg"
     },
     {
       "status": true,
-      "username": "Orlando Diggs",
+      "username": "Marie Jensen",
       "link": "https://ru-ru.facebook.com/",
-      "avatar": "https://cs10.pikabu.ru/post_img/big/2019/08/25/7/1566728720190193002.jpg"
+      "avatar": "https://fydi.ru/wp-content/uploads/2022/09/krasivye-fotki-devushek-bez-licza-na-avu-3-400x500.jpeg"
+    },
+    {
+      "status": true,
+      "username": "Alex Lee",
+      "link": "https://ru-ru.facebook.com/",
+      "avatar": "https://pristor.ru/wp-content/uploads/2018/12/Редкие-и-крутые-картинки-парней-без-лица-на-аву-и-аватарку-9.jpg"
+    },
+    {
+      "status": false,
+      "username": "Leo Gill",
+      "link": "https://ru-ru.facebook.com/",
+      "avatar": "https://avatars.mds.yandex.net/i?id=27e4af858c5d2147d770a6b8cb51988a63b64f55-6263806-images-thumbs&n=13"
     }
   ],
   "channels": [
@@ -108,33 +121,99 @@
     },
     {
       "user": {
+        "avatar": "https://img5.goodfon.com/original/1024x1024/3/a0/devushka-spina-gorod-vysota-solntse.jpg",
         "fullName": "Amilia Luna",
-        "avatar": "/img/avatar.596073e9.svg"
+        "status": true,
+        "description": "UL Designer",
+        "username": "@amilia_lu",
+        "email": "a-luna@gmail.com",
+        "skype": "amiluna",
+        "timezone": "2:21 PM Local time"
       },
-      "idChannel": 2,
-      "time": "10:21 PM",
-      "content": "hjk",
-      "id": 3
-    },
-    {
-      "user": {
-        "fullName": "Amilia Luna",
-        "avatar": "/img/avatar.596073e9.svg"
-      },
-      "time": "7:53 PM",
-      "content": "hh",
-      "idChannel": 2,
-      "id": 4
-    },
-    {
-      "user": {
-        "fullName": "Amilia Luna",
-        "avatar": "/img/avatar.596073e9.svg"
-      },
-      "time": "7:55 PM",
-      "content": "jkj",
-      "idChannel": 2,
+      "time": "0:53 PM",
+      "content": "))",
+      "idChannel": 1,
       "id": 5
+    },
+    {
+      "user": {
+        "avatar": "https://img5.goodfon.com/original/1024x1024/3/a0/devushka-spina-gorod-vysota-solntse.jpg",
+        "fullName": "Amilia Luna",
+        "status": true,
+        "description": "UL Designer",
+        "username": "@amilia_lu",
+        "email": "a-luna@gmail.com",
+        "skype": "amiluna",
+        "timezone": "2:21 PM Local time"
+      },
+      "time": "1:05 PM",
+      "content": "I'm fine",
+      "idChannel": 1,
+      "id": 6
+    },
+    {
+      "user": {
+        "avatar": "https://img5.goodfon.com/original/1024x1024/3/a0/devushka-spina-gorod-vysota-solntse.jpg",
+        "fullName": "Amilia Luna",
+        "status": true,
+        "description": "UL Designer",
+        "username": "@amilia_lu",
+        "email": "a-luna@gmail.com",
+        "skype": "amiluna",
+        "timezone": "2:21 PM Local time"
+      },
+      "time": "1:05 PM",
+      "content": "hi",
+      "idChannel": 1,
+      "id": 7
+    },
+    {
+      "user": {
+        "avatar": "https://img5.goodfon.com/original/1024x1024/3/a0/devushka-spina-gorod-vysota-solntse.jpg",
+        "fullName": "Amilia Luna",
+        "status": true,
+        "description": "UL Designer",
+        "username": "@amilia_lu",
+        "email": "a-luna@gmail.com",
+        "skype": "amiluna",
+        "timezone": "2:21 PM Local time"
+      },
+      "time": "1:06 PM",
+      "content": "11",
+      "idChannel": 1,
+      "id": 8
+    },
+    {
+      "user": {
+        "avatar": "https://img5.goodfon.com/original/1024x1024/3/a0/devushka-spina-gorod-vysota-solntse.jpg",
+        "fullName": "Amilia Luna",
+        "status": true,
+        "description": "UL Designer",
+        "username": "@amilia_lu",
+        "email": "a-luna@gmail.com",
+        "skype": "amiluna",
+        "timezone": "2:21 PM Local time"
+      },
+      "time": "1:08 PM",
+      "content": "ау",
+      "idChannel": 1,
+      "id": 9
+    },
+    {
+      "user": {
+        "avatar": "https://img5.goodfon.com/original/1024x1024/3/a0/devushka-spina-gorod-vysota-solntse.jpg",
+        "fullName": "Amilia Luna",
+        "status": true,
+        "description": "UL Designer",
+        "username": "@amilia_lu",
+        "email": "a-luna@gmail.com",
+        "skype": "amiluna",
+        "timezone": "2:21 PM Local time"
+      },
+      "time": "1:10 PM",
+      "content": "11\\",
+      "idChannel": 1,
+      "id": 10
     }
   ]
 }

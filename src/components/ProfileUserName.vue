@@ -1,6 +1,6 @@
 <template>
   <div class="profile">
-    <div class="profile_avatar"></div>
+    <img class="profile_avatar" :src="profile.avatar" />
     <div class="profile_information">
       <div class="profile_name">
         <div class="username">{{ profile?.fullName }}</div>
@@ -18,7 +18,7 @@
         </button>
       </div>
       <div class="profile_username">
-        <div class="profile_username_title"></div>
+        <div class="profile_username_title">Username</div>
         <div class="profile_username_name">{{ profile.username }}</div>
       </div>
       <div class="profile_email">
@@ -92,7 +92,6 @@ export default {
     opacity: 0.8;
   }
   &_avatar {
-    background: url(../../src/img/avatar.svg);
     background-size: cover;
     width: 200px;
     height: 200px;
