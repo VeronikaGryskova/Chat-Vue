@@ -62,11 +62,6 @@ export default {
         minute: "numeric",
         hour12: true,
       });
-      // this.correspondence.push({
-      //   message: this.message,
-      //   time: this.smsDate,
-      //   user: this.user,
-      // });
 
       axios
         .post("http://localhost:3000/messages", {
@@ -85,7 +80,7 @@ export default {
         });
       setTimeout(() => {
         this.message = "";
-      }, 50);
+      }, 80);
     },
   },
   computed: {

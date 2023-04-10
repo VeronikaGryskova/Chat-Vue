@@ -135,26 +135,6 @@
       "content": "jkj",
       "idChannel": 2,
       "id": 5
-    },
-    {
-      "user": {
-        "fullName": "Amilia Luna",
-        "avatar": "/img/avatar.596073e9.svg"
-      },
-      "time": "7:55 PM",
-      "content": "nkj",
-      "idChannel": 5,
-      "id": 6
-    },
-    {
-      "user": {
-        "fullName": "Amilia Luna",
-        "avatar": "/img/avatar.596073e9.svg"
-      },
-      "time": "7:45 AM",
-      "content": "mm",
-      "idChannel": 3,
-      "id": 7
     }
   ]
 }
