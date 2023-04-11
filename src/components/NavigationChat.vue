@@ -186,6 +186,10 @@ export default {
 
         color: #b5b5b5;
       }
+      .active {
+        font-weight: 700;
+        color: #ffffff;
+      }
       a:hover {
         font-weight: 700;
         color: #ffffff;

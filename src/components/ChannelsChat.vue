@@ -20,17 +20,12 @@ export default {
       this.$store.dispatch("changeCurrentChannel", channel);
     },
   },
-  // computed: {
-  //   currentChannelId() {
-  //     return this.$store.state.currentChannel?.id;
-  //   },
-  // },
+  computed: {
+    currentChannelId() {
+      return this.$store.state.currentChannel?.id;
+    },
+  },
 };
 </script>
 
-<style lang="scss">
-.active {
-  font-weight: 700;
-  color: #ffffff;
-}
-</style>
+<style lang="scss"></style>
