@@ -150,6 +150,22 @@
       "content": "))",
       "idChannel": 1,
       "id": 4
+    },
+    {
+      "user": {
+        "avatar": "https://img5.goodfon.com/original/1024x1024/3/a0/devushka-spina-gorod-vysota-solntse.jpg",
+        "fullName": "Amilia Luna",
+        "status": true,
+        "description": "UL Designer",
+        "username": "@amilia_lu",
+        "email": "a-luna@gmail.com",
+        "skype": "amiluna",
+        "timezone": "2:21 PM Local time"
+      },
+      "time": "4:35 PM",
+      "content": ")",
+      "idChannel": 1,
+      "id": 5
     }
   ]
 }

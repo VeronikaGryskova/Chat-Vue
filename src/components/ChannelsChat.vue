@@ -14,15 +14,14 @@
 <script>
 export default {
   props: { channels_data: Array },
-
-  methods: {
-    getChannelData(channel) {
-      this.$store.dispatch("changeCurrentChannel", channel);
-    },
-  },
   computed: {
     currentChannelId() {
       return this.$store.state.currentChannel?.id;
+    },
+  },
+  methods: {
+    getChannelData(channel) {
+      this.$store.dispatch("changeCurrentChannel", channel);
     },
   },
 };

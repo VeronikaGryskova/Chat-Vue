@@ -33,10 +33,12 @@ export default {
       smsDate: "",
     };
   },
-  mounted() {
-    axios.get("http://localhost:3000/messages").then((response) => {
-      this.$store.dispatch("changeMessages", response.data);
-    });
+  computed: {
+    filteredMessages() {
+      return this.$store.state.messages.filter(
+        (message) => message.idChannel === this.$store.state.currentChannel?.id
+      );
+    },
   },
   methods: {
     handleOnChange(e) {
@@ -78,12 +80,10 @@ export default {
       }, 80);
     },
   },
-  computed: {
-    filteredMessages() {
-      return this.$store.state.messages.filter(
-        (message) => message.idChannel === this.$store.state.currentChannel?.id
-      );
-    },
+  mounted() {
+    axios.get("http://localhost:3000/messages").then((response) => {
+      this.$store.dispatch("changeMessages", response.data);
+    });
   },
 };
 </script>
